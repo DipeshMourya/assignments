@@ -1,0 +1,69 @@
+1.What is jQuery?
+ jQuery is a small, light-weight and fast JavaScript library. It is cross-platform and supports different types of browsers. It is also 
+ referred as ?write less do more? because it takes a lot of common tasks that requires many lines of JavaScript code to accomplish, and 
+ binds them into methods that can be called with a single line of code whenever needed. It is also very useful to simplify a lot of the 
+ complicated things from JavaScript, like AJAX calls and DOM manipulation.
+  jQuery is a small, fast and lightweight JavaScript library.
+  jQuery is platform-independent.
+  jQuery means "write less do more".
+  jQuery simplifies AJAX call and DOM manipulation.
+
+2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,JQuery Animation?
+ Applying CSS Using JQuery:
+  We can use jquery’s .css() method to apply CSS style on the given webpage. jQuery is a javascript library that helps us manipulate the
+  DOM easily and efficiently using its various helper methods and properties. It allows us to add interactivity to the DOM as well as add 
+  and change the CSS styles of the DOM elements. 
+  JQuery css() method accepts either an argument of type object, with key as the CSS property name and value as the desired property value
+  to be set to, or just a pair of comma-separated CSS property name and value.
+
+ Add Class and Remove Class in JQuery:
+  Add Class:
+   The addclass() method is used to add one or more class name to the selected element. This method is used only to add one or more class 
+   names to the class attributes not to remove the existing class attributes.  
+   If you want to add more than one class separate the class names with spaces.
+   Parameters of jQuery addClass() method:
+    Classname:
+     It is a mandatory parameter. It specifies one or more class names which you want to add.
+    Function (index, currentclass):
+     It is an optional parameter. It specifies a function that returns one or more class names to be added.
+     Index: It is used to provide the index position of the element in the set.
+     Currentclass: It is used to return the current class name of the selected element. 
+   
+  Remove Class:
+   The removeClass() method removes one or more class names from the selected elements.
+   If no parameter is specified, this method will remove ALL class names from the selected elements.
+   Parameters of jQuery removeClass() method:
+    classname:
+     Optional. Specifies one or more class names to remove. To remove several classes, separate the class names with space
+     If this parameter is empty, all class names will be removed
+    function(index,currentclass):
+     Optional. A function that returns one or more class names to remove
+     index - Returns the index position of the element in the set
+     currentclass - Returns the current class name of selected elements
+  
+ JQuery Animation:
+  The jQuery animate() method provides you a way to create custom animations.
+  Here, params parameter defines the CSS properties to be animated.
+  The speed parameter is optional and specifies the duration of the effect. It can be set as "slow" , "fast" or milliseconds.
+  The callback parameter is also optional and it is a function which is executed after the animation completes.
+
+3.How to create slider with animation? 
+ jQuery UI consists of GUI widgets, visual effects, and themes implemented using jQuery, CSS, and HTML. jQuery UI is great for 
+ building UI interfaces for the webpages. jQueryUI provides us a slider control through the slider widget. Slider helps us to 
+ get a certain value using a given range. we will see how to animate a slider. The animate option when set to true will create 
+ an animation effect when you directly click at any point on the slider’s axis
+ Parameters: This option accepts three parameters as discussed below:
+  boolean: If set to true, the slider will be animated. By default, the value is false
+  string: The string value used to set the speed of the slider cursor. The available values are slow, normal, fast.
+  number: The duration of the animation in milliseconds.
+   
+
+
+
+
+
+
+
+
+
+

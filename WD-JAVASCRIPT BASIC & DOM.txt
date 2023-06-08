@@ -1,0 +1,117 @@
+1.What is JavaScript?
+ JavaScript is a scripting language. It is different from Java language. It is object-based, lightweight, cross-platform translated language. 
+ It is widely used for client-side validation. The JavaScript Translator (embedded in the browser) is responsible for translating the 
+ JavaScript code for the web browser.
+
+2.What is the use of isNaN function?
+ The isNaN() function determines whether a value is NaN when converted to a number. Because coercion inside the isNaN() function can be 
+ surprising, you may alternatively want to use Number.isNaN() .
+
+3.What is negative Infinity?.
+ Negative Infinity is a number in JavaScript which can be derived by dividing the negative number by zero. 
+ 
+4.Which company developed JavaScript?
+ JavaScript was created at Netscape Communications by Brendan Eich in 1995. Netscape and Eich designed JavaScript as a scripting language for 
+ use with the company's flagship web browser, Netscape Navigator.
+
+5.What are undeclared and undefined variables?
+ Undeclared variables are those that have not been declared or defined in the current scope, while undefined variables are those that have 
+ been declared but not given a value. Understanding the difference between these two terms is crucial for writing correct and effective 
+ JavaScript code.
+
+6.Write the code for adding new elements dynamically?
+ With document.createElement() method you can create a specified HTML element dynamically in JavaScript. Once created, you can insert (or add) 
+ the element to your web page, or add it to a pre-defined element or a dynamically created element. In fact, you can create an entire form 
+ dynamically using this method.
+ code for adding new elements dynamically:
+      
+     var div=document.createElement("div")
+
+ were,div is an one of the element.    
+
+7.What is the difference between ViewState and SessionState?
+ "View state" is specific to a page in a session whereas "Session state" is specific to a user or browser that can be accessed across all pages 
+ in the web application.
+
+8.What is === operator?
+ The strict equality (===) operator checks whether its two operands are equal, returning a Boolean result. Unlike the equality operator, the 
+ strict equality operator always considers operands of different types to be different.
+
+9.How can the style/class of an element be changed?
+ To change the styles/class of all elements : 
+  Use the querySelectorAll() method to get a collection of the elements with the specific class.
+  Use the forEach() method to iterate over the collection.
+  On each iteration, use the style object to change the element's styles.
+
+10.How to read and write a file using JavaScript?
+ There are two ways to do it:
+  1. Using JavaScript extensions (runs from JavaScript Editor)
+     In JavaScript Extensions, you can use
+     fh = fopen(getScriptPath(), 0); to open a file
+  
+  2. Using a web page and ActiveX objects (Internet Explorer only)
+     Using ActiveX objects, following should be included in your code to read a file:
+     var fso = new ActiveXObject("Scripting.FileSystemObject");
+     var s = fso.OpenTextFile("C:\\example.txt", 1, true);
+
+11.What are all the looping structures in JavaScript?
+ There are four types of loops in JavaScript:
+  for loop
+  while loop
+  do-while loop
+  for-in loop
+
+  JavaScript For loop:
+    The JavaScript for loop iterates the elements for the fixed number of times. It should be used if number of iteration is known.
+
+  JavaScript While loop:
+    The JavaScript while loop iterates the elements for the infinite number of times. It should be used if number of iteration is not known.   
+ 
+  JavaScript Do-while loop:
+    The JavaScript do while loop iterates the elements for the infinite number of times like while loop. But, code is executed at least once 
+    whether condition is true or false. 
+
+  JavaScript For-in loop:
+    The JavaScript for in loop is used to iterate the properties of an object.
+
+12.How can you convert the string of any base to an integer in JavaScript?
+ To convert a string to an integer parseInt(), Number(), and Unary operator(+) function is used in javascript. parseInt() function returns 
+ Nan( not a number) when the string doesn't contain number. If a string with a number is sent, then only that number will be returned as the 
+ output. This function won't accept spaces. 
+
+13.What is the function of the delete operator?
+ The delete operator removes a property from an object. If the property's value is an object and there are no more references to the object,
+ the object held by that property is eventually released automatically.
+ 
+14.What are all the types of Pop up boxes available in JavaScript?
+ In Javascript, popup boxes are used to display the message or notification to the user. There are three types of pop-up boxes in JavaScript
+ namely Alert Box, Confirm Box and Prompt Box.
+  Alert Box:
+    It is used when a warning message is needed to be produced. When the alert box is displayed to the user, the user needs to press ok and 
+    proceed.
+
+  Confirm Box:
+    It is a type of pop-up box that is used to get authorization or permission from the user. The user has to press the ok or cancel button
+    to proceed.  
+
+  Prompt Box:
+    It is a type of pop up box which is used to get the user input for further use. After entering the required details user have to click 
+    ok to proceed next stage else by pressing the cancel button user returns the null value. 
+
+15.What is the use of Void (0)?
+ “javascript: void(0)” is similar to void. javascript: void(0) means return undefined as a primitive value. We use this to prevent any
+ negative effects on a webpage when we insert some expression. For example, in the case of URL hyperlinks.
+
+16.How can a page be forced to load another page in JavaScript?
+ In JavaScript, we can use window. location object to force a page to load another page. We can use the location object to set the URL of
+ a new page.
+
+17.What are the disadvantages of using innerHTML in JavaScript?
+ Disadvantages of using innerHTML in JavaScript are as follows:
+  The use of innerHTML very slow
+  Preserves event handlers attached to any DOM elements
+  Content is replaced everywhere
+  Appending to innerHTML is not supported
+  Old content replaced issue
+  Can break the document
+  Can also be used for Cross-site Scripting(XSS)
